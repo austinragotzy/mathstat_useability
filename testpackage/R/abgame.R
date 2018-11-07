@@ -21,6 +21,8 @@
 #' @examples
 #' ind <- 0
 #' nsims <- 10000
+#'
+#' # Probability of Person A winning
 #' for (i in 1:nsims) {
 #'     seeA <- abgame()
 #'     if (seeA[1] == 1){

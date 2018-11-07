@@ -1,12 +1,14 @@
 Package: testpackage
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Test Package for mathstat
 Version: 0.1.0
-Author: Senior Design Team
-Maintainer: The package maintainer paul.r.phillips@wmich.edu
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: person("Paul", "Phillips", email = "paul.r.phillips@wmich.edu", role = "ctb")
+        person("Austin", "Ragotzy", email = "austin.p.ragotzy@wmich.edu", role = "ctb")
+Maintainer: Paul R. Phillips <paul.r.phillips@wmich.edu>
+Description: This package was built to test Dr. McKean's upcoming R package
+    mathstat. This test package will allow us to test the interpretability of
+    our documentation before the package is complete. 
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
 Suggests: testthat

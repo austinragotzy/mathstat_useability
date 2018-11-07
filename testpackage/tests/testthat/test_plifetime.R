@@ -30,7 +30,7 @@ test_that("input", {
 
 test_that("output", {
     expect_equal(round(plifetime(1, 2, 1, 2), 5), 0.12219)
-    expect_equal(plifetime(sqrt(2)/2, sqrt(2)/2), 0)
+    expect_equal(plifetime(sqrt(2)/2, sqrt(2)/2, Inf, Inf), 0)
     expect_equal(length(plifetime(1, 2, 1, 2)), 1)
     expect_equal(is.numeric(plifetime(1, 2, 1, 2)), TRUE)
     expect_equal(is.vector(plifetime(1, 2, 1, 2)), TRUE)
