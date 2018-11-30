@@ -11,5 +11,9 @@ Description: This package was built to test Dr. McKean's upcoming R package
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-Suggests: testthat
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
 RoxygenNote: 6.1.0
+VignetteBuilder: knitr
